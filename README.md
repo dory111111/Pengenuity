@@ -21,6 +21,8 @@ Pengunuity is designed to have the following features:
 - Developed based on LangChain, making it compatible with the LangChain ecosystem.
 
 ## 🎬 Demo
+https://user-images.githubusercontent.com/5876695/233595862-82f30fe0-c9dc-4b26-8c7c-76882b5ddec9.mov
+
 
 
 ## 🧠 Human Like Memory System
