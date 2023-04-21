@@ -1,5 +1,9 @@
 # Pengenuity: ReAct Agent with Human Like Memory System
-![Pengenuity Logo](docs/imgs/logo.svg)
+
+[![Twitter Follow](https://img.shields.io/twitter/follow/dory111111?style=social)](https://twitter.com/dory111111)
+
+
+<img src="docs/imgs/logo.svg" alt="Pengenuity Logo" width="50%">
 
 
 Pengenuity is an experimental open-source autonomous AI Agent that aims to replicate the structure of human memory. The project's ultimate goal is to create an AI agent that can learn and reason like a human, with the hope of better understanding the nature of human cognition.
