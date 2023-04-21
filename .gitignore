@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.pyc
+*$py.class
+
+.env
+.env.*
+env/
+.venv
+venv/
+
+.vscode/
+.idea/
+
+agent_data/
+
+*.lock
