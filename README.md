@@ -18,7 +18,7 @@ Pengunuity is designed to have the following features:
   - Semantic memory for the storage and retrieval of concepts and knowledge.
   - Episodic memory for the storage and retrieval of specific events or episodes.
 - The ability to learn new concepts and remember task execution results while performing tasks.
-- Proficient use of tools based on its Procedural memory:
+- Use of tools based on procedural memory:
   - The built-in tools include only the default Google search tool for web browsing.
   - Customization of tools, allowing users to add and tailor tools to their specific needs and preferences.
 - Designed to operate using GPT-3.5.
@@ -31,15 +31,18 @@ https://user-images.githubusercontent.com/5876695/233595862-82f30fe0-c9dc-4b26-8
 
 ## 🧠 Human Like Memory System
 
-
-![Type of Memory](docs/imgs/memory_types.png)
 Human long-term memory consists of three types: Procedural memory, Semantic memory, and Episodic memory.
 
-- Procedural memory stores and retrieves procedural knowledge, such as how to perform specific tasks or use external tools specified by the user.
-- Semantic memory stores and retrieves concepts and knowledge, such as general facts and concepts, word meanings, and common knowledge that people have.
-- Episodic memory stores and retrieves personal experiences and events.
+- **Procedural memory** is the long-term memory related to the acquisition and execution of motor and cognitive skills, such as riding a bicycle, typing on a keyboard, or playing a musical instrument.
 
-![Pengenuity Memory Systems](docs/imgs/system.png)
+- **Semantic memory** refers to long-term memory of facts, concepts, and general knowledge about the world, such as knowing that the capital of France is Paris or that the sun rises in the east and sets in the west.
+
+- **Episodic memory** is the long-term memory responsible for remembering specific events or personal experiences. It allows us to remember past experiences and to relive them in our minds, such as a family vacation or a significant life event.
+
+![Type of Memory](docs/imgs/memory_types.png)
+
+
+
 
 Pengenuity's memory structure is based on human long-term memory and consists of three vector stores:
 
@@ -48,6 +51,7 @@ Pengenuity's memory structure is based on human long-term memory and consists of
  - Semantic memory vector store: stores and retrieves concepts and knowledge. It saves the knowledge obtained through entity extraction.
 
  - Episodic memory vector store: stores and retrieves specific events or episodes. It saves the sequence of agent's actions.
+![Pengenuity Memory Systems](docs/imgs/system.png)
 
 
 
@@ -58,11 +62,11 @@ Pengenuity's memory structure is based on human long-term memory and consists of
 This script operates in the following loop:
 
 1. The agent generates a task list based on the goal provided by the user.
-2. The agent searches for memories related to the most recently tackled task, looking for relevant concepts and past reasoning and action results.
+2. The agent searches for memories related to the current task, looking for relevant concepts and past reasoning and action results.
 3. Based on the search results, it determines the next action to take.
 4. It executes the action using external tools.
 5. It performs entity extraction on the execution results, learning new concepts and storing reasoning and actions and their results as an episode in memory.
-6.It returns to step 2.
+6. It returns to step 2.
 
 
 ## 🔧 Installation
