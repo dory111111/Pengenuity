@@ -103,7 +103,7 @@ poetry install
 1. Run `Pengenuity` Python module in your terminal
 
 ```
-poetry run python src/run.py
+poetry run python src/main.py
 ```
 
 ## 🚀 Planned Features
